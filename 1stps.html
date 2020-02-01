@@ -1,0 +1,158 @@
+<html>
+<head>
+<title>ABC bank</title>
+<style>
+header
+{
+	font-size:30px;
+	background-color:lightyellow;
+	
+}
+td
+{
+	font-size:40px;
+}
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  background: #1bc2a2;
+}
+
+ul li {
+  display: block;
+  position: relative;
+  float: left;
+  background: #1bc2a2;
+}
+li ul { display: none; }
+
+ul li a {
+  display: block;
+  padding: 1em;
+  text-decoration: none;
+  white-space: nowrap;
+  color: #fff;
+}
+
+ul li a:hover { background: #2c3e50; }
+
+li:hover > ul {
+  display: block;
+  position: absolute;
+}
+
+li:hover li { float: none; }
+
+li:hover a { background: #1bc2a2; }
+
+li:hover li a:hover { background: #2c3e50; }
+
+.main-navigation li ul li { border-top: 0; }
+
+ul ul ul {
+  left: 100%;
+  top: 0;
+}
+
+ul:before,
+ul:after {
+  content: " "; /* 1 */
+  display: table; /* 2 */
+}
+
+ul:after { clear: both; }
+footer
+{
+	font-size:20px;
+	color:blue;
+	background-color:olive;
+}
+</style>
+<body>
+
+<header>
+<h1>
+<font size="60px"><font color="blue">ABC</font> </font>Bank Corporation</h1>
+<ul class="main-navigation">
+  <li><a href="1stps.html">Home</a></li>
+  <li><a href="aboutus.html">About Us</a></li>
+    
+      <li><a href="#">Product</a>
+        <ul>
+          <li><a href="#">Accounts & Deposits</a>
+	  <ul>
+	  <li><a href="#">Salary Account</a></li>
+	  <li><a href="#">Savings Account</a></li>
+	  </ul>
+	  </li>
+          <li><a href="#">Loans</a>
+	  <ul>
+	  <li><a href="#">Car Loan</a></li>
+	  <li><a href="#">Home Loan</a></li>
+	  </ul>
+	  </li>
+	  <li><a href="#">Insurances</a>
+	  <ul>
+	  <li><a href="#">Health</a></li>
+	  <li><a href="#">Life</a></li>
+          <li><a href="#">Travel</a></li>
+	  <li><a href="#">Motor</a></li>
+	  </ul>
+	  </li>
+	  <li><a href="#">Cards</a>
+	  <ul>
+	  <li><a href="#">Credit card</a></li>
+	  <li><a href="#">Debit card</a></li>
+	  <li><a href="#">Prepaid card</a></li>
+	  </ul>
+	  </li>
+	  
+        </ul>
+      </li>
+      <li><a href="offers.html">Offers</a></li>
+      <li><a href="prgm3.html">Apply now</a></li>
+      <li><a href="#">Contact us</a></li>
+      
+      
+    </ul>
+  </li>
+  
+   
+  </li>
+  
+</ul>
+</header>
+<marquee>
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjF_q9Qi21KDrnuzy1skFYjSBxTXv4o5fr3SAz2mNnQI62ktKy&s" width="550" height="350">
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpNdeQjDJdc9ioPh7t7jBqLpmv0hiDX0Bg12xm8n5SAyl-xj9WHQ&s" width="550" height="350">
+</marquee>
+<table align="center" cellpadding="10">
+<tr><td><center style="text-decoration:underline;color:blue;">Login</center></td></tr>
+<tr>
+<td>User Name</td>
+<td><input type="text" name="user name" maxlength="30"/>
+</td>
+</tr>
+<tr>
+<td>Password</td>
+<td><input type="password" name="password" maxlength="30"/>
+
+</td>
+</tr>
+
+<tr>
+<td colspan="2" align="center">
+<input type="submit" value="Submit">
+
+</td>
+</tr>
+
+</table>
+<footer>
+<center>
+&copy; ABC Bank corporation
+</center>
+</footer>
+</body>
+</html>
